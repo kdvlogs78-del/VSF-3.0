@@ -994,13 +994,13 @@ button {
         position: fixed;
         top: 75px;
         right: -100%;
-        width: 200px;
+        width: 180px;
         max-height: calc(100vh - 100px);
-         background: rgba(109, 109, 109, 0.2);
-        backdrop-filter: blur(80px);
-        -webkit-backdrop-filter: blur(80px);
+        background: rgba(161, 22, 215, 0.2);
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(50px);
         border-radius: 18px;
-        border: 1px solid rgba(0, 0, 0, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.25);
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
@@ -1013,7 +1013,6 @@ button {
         z-index: 1000;
         overflow-y: auto;
         margin-right: 12px;
-         padding: 18px 14px; 
     }
     
     .nav-links.active {
@@ -1051,8 +1050,8 @@ button {
         width: 100%;
         margin-top: 5px;
         background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(80px);
-        -webkit-backdrop-filter: blur(80px);
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
         border-radius: 8px;
         display: none;
         overflow: hidden;
@@ -1064,7 +1063,7 @@ button {
     }
     
     .dropdown-content a {
-          color:  #ffffff;
+        color: #fff;
         padding: 7px 10px;
         font-size: 13px;
         font-weight: 400;
@@ -1308,5 +1307,4 @@ button {
         grid-template-columns: 1fr;
     }
 }
-
 
